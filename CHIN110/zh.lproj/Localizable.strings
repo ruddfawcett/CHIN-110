@@ -1,0 +1,47 @@
+//"Welcome" = "欢迎";
+//
+//"Intro" = "您好。\n欢迎非思碧旅游的交互式版本。\n在我们开始之前，我们将尝试确定的行程是最适合你的。\n\n点击任何地方开始。";
+//
+//"Cost?" = "多少钱你愿意在此投资之旅？";
+//
+//"Not a ton" = "不是一吨。";
+//
+//"coach" = "我没事骑着经济。";
+//
+//"A fair amount" = "一个公平的数额。";
+//
+//"first" = "我宁愿骑一流的。";
+//
+//"Education?" = "你在看什么走出此行吗？";
+//
+//"Yes education" = "我想学习中国。。。";
+//
+//"culture" = "，通过博物馆，历史遗迹和文化。";
+//
+//"No tourism" = "我希望有一个美妙的假期。。。";
+//
+//"relax" = "，看到中国定义的大古迹。"
+
+"Welcome" = "Welcome";
+
+"Intro" = "Hello.\nWelcome to an interactive version of Non Sibi Tourism.\nBefore we begin, we'll try to determine the trip that's best for you.  \n\nTap anywhere to begin.";
+
+"Cost?" = "How much would you like to invest in this trip?";
+
+"Not a ton" = "Not a ton.";
+
+"coach" = "I'm fine riding economy.";
+
+"A fair amount" = "A fair amount.";
+
+"first" = "I'd prefer to ride first class.";
+
+"Education?" = "What are you looking to get out of this trip?";
+
+"Yes education" = "I want to learn about China...";
+
+"culture" = "through museums, historical sites and culture.";
+
+"No tourism" = "I want a nice vacation...";
+
+"relax" = "and see the big monuments that define China。";

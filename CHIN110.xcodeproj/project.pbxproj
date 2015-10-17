@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F19327141AEDB6B9005AD391 /* CNOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19327131AEDB6B9005AD391 /* CNOptionViewController.m */; };
+		F19327171AEDB76D005AD391 /* CNWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19327161AEDB76D005AD391 /* CNWelcomeViewController.m */; };
+		F193271A1AEDB816005AD391 /* UIView+CNExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F19327191AEDB816005AD391 /* UIView+CNExtensions.m */; };
+		F193271D1AEDBCA2005AD391 /* NSString+CNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F193271C1AEDBCA2005AD391 /* NSString+CNExtension.m */; };
+		F19327251AEDE086005AD391 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F19327231AEDE086005AD391 /* Localizable.strings */; };
+		F19327291AEDE0E0005AD391 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F19327271AEDE0E0005AD391 /* Localizable.strings */; };
+		F193272C1AEDED9C005AD391 /* CNTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F193272B1AEDED9C005AD391 /* CNTabBarViewController.m */; };
+		F193272F1AEDEDFD005AD391 /* CNAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F193272E1AEDEDFD005AD391 /* CNAboutViewController.m */; };
+		F19327321AEDEE16005AD391 /* CNRestaurantsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19327311AEDEE16005AD391 /* CNRestaurantsTableViewController.m */; };
+		F19327351AEDEE20005AD391 /* CNPlacesToVisitTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19327341AEDEE20005AD391 /* CNPlacesToVisitTableViewController.m */; };
+		F19327381AEDEE2B005AD391 /* CNTransportationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19327371AEDEE2B005AD391 /* CNTransportationTableViewController.m */; };
+		F193273B1AEDF4E1005AD391 /* CNCostTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F193273A1AEDF4E1005AD391 /* CNCostTableViewController.m */; };
+		F193273E1AEDF521005AD391 /* CNItineraryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F193273D1AEDF521005AD391 /* CNItineraryTableViewController.m */; };
+		F1BF5B6D1AE7107F00A16148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BF5B6C1AE7107F00A16148 /* main.m */; };
+		F1BF5B701AE7107F00A16148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BF5B6F1AE7107F00A16148 /* AppDelegate.m */; };
+		F1BF5B781AE7107F00A16148 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BF5B771AE7107F00A16148 /* Images.xcassets */; };
+		F1BF5B871AE7107F00A16148 /* CHIN110Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BF5B861AE7107F00A16148 /* CHIN110Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1BF5B811AE7107F00A16148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BF5B5F1AE7107F00A16148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BF5B661AE7107F00A16148;
+			remoteInfo = CHIN110;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F19327121AEDB6B9005AD391 /* CNOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNOptionViewController.h; sourceTree = "<group>"; };
+		F19327131AEDB6B9005AD391 /* CNOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNOptionViewController.m; sourceTree = "<group>"; };
+		F19327151AEDB76D005AD391 /* CNWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNWelcomeViewController.h; sourceTree = "<group>"; };
+		F19327161AEDB76D005AD391 /* CNWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNWelcomeViewController.m; sourceTree = "<group>"; };
+		F19327181AEDB816005AD391 /* UIView+CNExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CNExtensions.h"; sourceTree = "<group>"; };
+		F19327191AEDB816005AD391 /* UIView+CNExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CNExtensions.m"; sourceTree = "<group>"; };
+		F193271B1AEDBCA2005AD391 /* NSString+CNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CNExtension.h"; sourceTree = "<group>"; };
+		F193271C1AEDBCA2005AD391 /* NSString+CNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CNExtension.m"; sourceTree = "<group>"; };
+		F19327241AEDE086005AD391 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = Localizable.strings; sourceTree = "<group>"; };
+		F19327281AEDE0E0005AD391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		F193272A1AEDED9C005AD391 /* CNTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNTabBarViewController.h; sourceTree = "<group>"; };
+		F193272B1AEDED9C005AD391 /* CNTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNTabBarViewController.m; sourceTree = "<group>"; };
+		F193272D1AEDEDFD005AD391 /* CNAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNAboutViewController.h; sourceTree = "<group>"; };
+		F193272E1AEDEDFD005AD391 /* CNAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNAboutViewController.m; sourceTree = "<group>"; };
+		F19327301AEDEE16005AD391 /* CNRestaurantsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNRestaurantsTableViewController.h; sourceTree = "<group>"; };
+		F19327311AEDEE16005AD391 /* CNRestaurantsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNRestaurantsTableViewController.m; sourceTree = "<group>"; };
+		F19327331AEDEE20005AD391 /* CNPlacesToVisitTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNPlacesToVisitTableViewController.h; sourceTree = "<group>"; };
+		F19327341AEDEE20005AD391 /* CNPlacesToVisitTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNPlacesToVisitTableViewController.m; sourceTree = "<group>"; };
+		F19327361AEDEE2B005AD391 /* CNTransportationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNTransportationTableViewController.h; sourceTree = "<group>"; };
+		F19327371AEDEE2B005AD391 /* CNTransportationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNTransportationTableViewController.m; sourceTree = "<group>"; };
+		F19327391AEDF4E1005AD391 /* CNCostTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNCostTableViewController.h; sourceTree = "<group>"; };
+		F193273A1AEDF4E1005AD391 /* CNCostTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNCostTableViewController.m; sourceTree = "<group>"; };
+		F193273C1AEDF521005AD391 /* CNItineraryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNItineraryTableViewController.h; sourceTree = "<group>"; };
+		F193273D1AEDF521005AD391 /* CNItineraryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNItineraryTableViewController.m; sourceTree = "<group>"; };
+		F1BF5B671AE7107F00A16148 /* CHIN110.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHIN110.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BF5B6B1AE7107F00A16148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BF5B6C1AE7107F00A16148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1BF5B6E1AE7107F00A16148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1BF5B6F1AE7107F00A16148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1BF5B771AE7107F00A16148 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1BF5B801AE7107F00A16148 /* CHIN110Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHIN110Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BF5B851AE7107F00A16148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BF5B861AE7107F00A16148 /* CHIN110Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHIN110Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1BF5B641AE7107F00A16148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BF5B7D1AE7107F00A16148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F19327221AEDE07B005AD391 /* zh.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F19327231AEDE086005AD391 /* Localizable.strings */,
+			);
+			path = zh.lproj;
+			sourceTree = "<group>";
+		};
+		F19327261AEDE0E0005AD391 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F19327271AEDE0E0005AD391 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		F1BF5B5E1AE7107F00A16148 = {
+			isa = PBXGroup;
+			children = (
+				F1BF5B691AE7107F00A16148 /* CHIN110 */,
+				F1BF5B831AE7107F00A16148 /* CHIN110Tests */,
+				F1BF5B681AE7107F00A16148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1BF5B681AE7107F00A16148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF5B671AE7107F00A16148 /* CHIN110.app */,
+				F1BF5B801AE7107F00A16148 /* CHIN110Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1BF5B691AE7107F00A16148 /* CHIN110 */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF5B6E1AE7107F00A16148 /* AppDelegate.h */,
+				F1BF5B6F1AE7107F00A16148 /* AppDelegate.m */,
+				F19327151AEDB76D005AD391 /* CNWelcomeViewController.h */,
+				F19327161AEDB76D005AD391 /* CNWelcomeViewController.m */,
+				F193271B1AEDBCA2005AD391 /* NSString+CNExtension.h */,
+				F193271C1AEDBCA2005AD391 /* NSString+CNExtension.m */,
+				F19327181AEDB816005AD391 /* UIView+CNExtensions.h */,
+				F19327191AEDB816005AD391 /* UIView+CNExtensions.m */,
+				F19327121AEDB6B9005AD391 /* CNOptionViewController.h */,
+				F19327131AEDB6B9005AD391 /* CNOptionViewController.m */,
+				F193272A1AEDED9C005AD391 /* CNTabBarViewController.h */,
+				F193272B1AEDED9C005AD391 /* CNTabBarViewController.m */,
+				F193273C1AEDF521005AD391 /* CNItineraryTableViewController.h */,
+				F193273D1AEDF521005AD391 /* CNItineraryTableViewController.m */,
+				F19327391AEDF4E1005AD391 /* CNCostTableViewController.h */,
+				F193273A1AEDF4E1005AD391 /* CNCostTableViewController.m */,
+				F193272D1AEDEDFD005AD391 /* CNAboutViewController.h */,
+				F193272E1AEDEDFD005AD391 /* CNAboutViewController.m */,
+				F19327301AEDEE16005AD391 /* CNRestaurantsTableViewController.h */,
+				F19327311AEDEE16005AD391 /* CNRestaurantsTableViewController.m */,
+				F19327331AEDEE20005AD391 /* CNPlacesToVisitTableViewController.h */,
+				F19327341AEDEE20005AD391 /* CNPlacesToVisitTableViewController.m */,
+				F19327361AEDEE2B005AD391 /* CNTransportationTableViewController.h */,
+				F19327371AEDEE2B005AD391 /* CNTransportationTableViewController.m */,
+				F19327261AEDE0E0005AD391 /* en.lproj */,
+				F19327221AEDE07B005AD391 /* zh.lproj */,
+				F1BF5B771AE7107F00A16148 /* Images.xcassets */,
+				F1BF5B6A1AE7107F00A16148 /* Supporting Files */,
+			);
+			path = CHIN110;
+			sourceTree = "<group>";
+		};
+		F1BF5B6A1AE7107F00A16148 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF5B6B1AE7107F00A16148 /* Info.plist */,
+				F1BF5B6C1AE7107F00A16148 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1BF5B831AE7107F00A16148 /* CHIN110Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF5B861AE7107F00A16148 /* CHIN110Tests.m */,
+				F1BF5B841AE7107F00A16148 /* Supporting Files */,
+			);
+			path = CHIN110Tests;
+			sourceTree = "<group>";
+		};
+		F1BF5B841AE7107F00A16148 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF5B851AE7107F00A16148 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1BF5B661AE7107F00A16148 /* CHIN110 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BF5B8A1AE7107F00A16148 /* Build configuration list for PBXNativeTarget "CHIN110" */;
+			buildPhases = (
+				F1BF5B631AE7107F00A16148 /* Sources */,
+				F1BF5B641AE7107F00A16148 /* Frameworks */,
+				F1BF5B651AE7107F00A16148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHIN110;
+			productName = CHIN110;
+			productReference = F1BF5B671AE7107F00A16148 /* CHIN110.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1BF5B7F1AE7107F00A16148 /* CHIN110Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BF5B8D1AE7107F00A16148 /* Build configuration list for PBXNativeTarget "CHIN110Tests" */;
+			buildPhases = (
+				F1BF5B7C1AE7107F00A16148 /* Sources */,
+				F1BF5B7D1AE7107F00A16148 /* Frameworks */,
+				F1BF5B7E1AE7107F00A16148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1BF5B821AE7107F00A16148 /* PBXTargetDependency */,
+			);
+			name = CHIN110Tests;
+			productName = CHIN110Tests;
+			productReference = F1BF5B801AE7107F00A16148 /* CHIN110Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1BF5B5F1AE7107F00A16148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rudd Fawcett";
+				TargetAttributes = {
+					F1BF5B661AE7107F00A16148 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2E6ZF9EL32;
+					};
+					F1BF5B7F1AE7107F00A16148 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F1BF5B661AE7107F00A16148;
+					};
+				};
+			};
+			buildConfigurationList = F1BF5B621AE7107F00A16148 /* Build configuration list for PBXProject "CHIN110" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				zh,
+			);
+			mainGroup = F1BF5B5E1AE7107F00A16148;
+			productRefGroup = F1BF5B681AE7107F00A16148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1BF5B661AE7107F00A16148 /* CHIN110 */,
+				F1BF5B7F1AE7107F00A16148 /* CHIN110Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1BF5B651AE7107F00A16148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BF5B781AE7107F00A16148 /* Images.xcassets in Resources */,
+				F19327291AEDE0E0005AD391 /* Localizable.strings in Resources */,
+				F19327251AEDE086005AD391 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BF5B7E1AE7107F00A16148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1BF5B631AE7107F00A16148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19327321AEDEE16005AD391 /* CNRestaurantsTableViewController.m in Sources */,
+				F193273E1AEDF521005AD391 /* CNItineraryTableViewController.m in Sources */,
+				F193271D1AEDBCA2005AD391 /* NSString+CNExtension.m in Sources */,
+				F19327381AEDEE2B005AD391 /* CNTransportationTableViewController.m in Sources */,
+				F193271A1AEDB816005AD391 /* UIView+CNExtensions.m in Sources */,
+				F193272C1AEDED9C005AD391 /* CNTabBarViewController.m in Sources */,
+				F19327171AEDB76D005AD391 /* CNWelcomeViewController.m in Sources */,
+				F19327141AEDB6B9005AD391 /* CNOptionViewController.m in Sources */,
+				F193273B1AEDF4E1005AD391 /* CNCostTableViewController.m in Sources */,
+				F193272F1AEDEDFD005AD391 /* CNAboutViewController.m in Sources */,
+				F1BF5B701AE7107F00A16148 /* AppDelegate.m in Sources */,
+				F1BF5B6D1AE7107F00A16148 /* main.m in Sources */,
+				F19327351AEDEE20005AD391 /* CNPlacesToVisitTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BF5B7C1AE7107F00A16148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BF5B871AE7107F00A16148 /* CHIN110Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1BF5B821AE7107F00A16148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BF5B661AE7107F00A16148 /* CHIN110 */;
+			targetProxy = F1BF5B811AE7107F00A16148 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F19327231AEDE086005AD391 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19327241AEDE086005AD391 /* zh */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F19327271AEDE0E0005AD391 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19327281AEDE0E0005AD391 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1BF5B881AE7107F00A16148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1BF5B891AE7107F00A16148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1BF5B8B1AE7107F00A16148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CHIN110/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F1BF5B8C1AE7107F00A16148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CHIN110/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		F1BF5B8E1AE7107F00A16148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CHIN110Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHIN110.app/CHIN110";
+			};
+			name = Debug;
+		};
+		F1BF5B8F1AE7107F00A16148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CHIN110Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHIN110.app/CHIN110";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1BF5B621AE7107F00A16148 /* Build configuration list for PBXProject "CHIN110" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BF5B881AE7107F00A16148 /* Debug */,
+				F1BF5B891AE7107F00A16148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BF5B8A1AE7107F00A16148 /* Build configuration list for PBXNativeTarget "CHIN110" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BF5B8B1AE7107F00A16148 /* Debug */,
+				F1BF5B8C1AE7107F00A16148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BF5B8D1AE7107F00A16148 /* Build configuration list for PBXNativeTarget "CHIN110Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BF5B8E1AE7107F00A16148 /* Debug */,
+				F1BF5B8F1AE7107F00A16148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1BF5B5F1AE7107F00A16148 /* Project object */;
+}
